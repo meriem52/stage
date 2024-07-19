@@ -1,0 +1,66 @@
+2024-07-16T17:43:49.806Z [my-app] [32minfo[39m: Received registration request for username: llog
+2024-07-16T17:43:50.008Z [my-app] [32minfo[39m: User llog registered successfully
+2024-07-16T18:58:54.884Z [my-app] [32minfo[39m: Received registration request for username: ali
+2024-07-16T18:58:55.094Z [my-app] [32minfo[39m: User ali registered successfully
+2024-07-16T18:59:02.033Z [my-app] [32minfo[39m: User ali attempting to log in
+2024-07-16T18:59:02.261Z [my-app] [32minfo[39m: User ali logged in successfully
+2024-07-16T20:43:51.688Z [auth-controller] [32minfo[39m: Received registration request for username: morta
+2024-07-16T20:43:51.691Z [auth-controller] [31merror[39m: Error during registration: Cannot read properties of undefined (reading 'hashPassword')
+2024-07-16T20:53:24.805Z [auth-controller] [32minfo[39m: Received registration request for username: moa
+2024-07-16T20:53:24.806Z [auth-controller] [31merror[39m: Error during registration: Cannot read properties of undefined (reading 'hashPassword')
+2024-07-16T21:47:36.015Z [auth-controller] [32minfo[39m: Received registration request for username: moa
+2024-07-16T21:47:36.016Z [auth-controller] [31merror[39m: Error during registration: Cannot read properties of undefined (reading 'hashPassword')
+2024-07-16T21:56:25.879Z [auth-controller] [32minfo[39m: Received registration request for username: moa
+2024-07-16T21:56:25.880Z [auth-controller] [31merror[39m: Error during registration: Cannot read properties of undefined (reading 'hashPassword')
+2024-07-16T22:26:49.751Z [auth-controller] [32minfo[39m: Received registration request for username: taher
+2024-07-16T22:26:49.989Z [auth-controller] [32minfo[39m: User taher registered successfully
+2024-07-17T09:04:57.763Z [auth-controller] [32minfo[39m: Received registration request for username: yassine
+2024-07-17T09:04:58.046Z [auth-controller] [32minfo[39m: User yassine registered successfully
+2024-07-17T09:05:09.997Z [auth-controller] [32minfo[39m: Received registration request for username: y
+2024-07-17T09:05:10.000Z [auth-controller] [31merror[39m: Error during registration: Validation error: "username" length must be at least 3 characters long
+2024-07-17T09:32:59.640Z [auth-controller] [32minfo[39m: Received registration request for username: yOUEE
+2024-07-17T09:32:59.641Z [auth-controller] [31merror[39m: Error during registration: Validation error: "password" length must be at least 6 characters long
+2024-07-17T09:33:35.060Z [auth-controller] [32minfo[39m: Received registration request for username: yOUEE
+2024-07-17T09:33:35.265Z [auth-controller] [32minfo[39m: User yOUEE registered successfully
+2024-07-17T09:33:45.514Z [auth-controller] [32minfo[39m: User yOUEE attempting to log in
+2024-07-17T09:33:45.667Z [auth-controller] [31merror[39m: Error during login: Invalid password
+2024-07-17T09:34:16.201Z [auth-controller] [32minfo[39m: Received registration request for username: mariemlog
+2024-07-17T09:34:16.406Z [auth-controller] [32minfo[39m: User mariemlog registered successfully
+2024-07-17T09:34:23.544Z [auth-controller] [32minfo[39m: User mariemlog attempting to log in
+2024-07-17T09:34:23.647Z [auth-controller] [31merror[39m: Error during login: Invalid password
+2024-07-17T09:39:58.816Z [auth-controller] [32minfo[39m: Received registration request for username: mariemloglog
+2024-07-17T09:39:58.820Z [auth-controller] [31merror[39m: Error during registration: validation.register is not a function
+2024-07-17T09:40:27.763Z [auth-controller] [32minfo[39m: Received registration request for username: testuser
+2024-07-17T09:40:27.764Z [auth-controller] [31merror[39m: Error during registration: validation.register is not a function
+2024-07-17T09:43:12.672Z [auth-controller] [32minfo[39m: Received registration request for username: testuser
+2024-07-17T09:43:12.673Z [auth-controller] [31merror[39m: Error during registration: validation.register is not a function
+2024-07-17T09:44:11.042Z [auth-controller] [32minfo[39m: Received registration request for username: testuser
+2024-07-17T09:44:11.179Z [auth-controller] [32minfo[39m: User testuser registered successfully
+2024-07-17T09:44:18.281Z [auth-controller] [32minfo[39m: User testuser attempting to log in
+2024-07-17T09:44:18.421Z [auth-controller] [31merror[39m: Error during login: secretOrPrivateKey must have a value
+2024-07-17T09:59:32.376Z [auth-controller] [32minfo[39m: Received registration request for username: test
+2024-07-17T09:59:32.525Z [auth-controller] [32minfo[39m: User test registered successfully
+2024-07-17T09:59:40.359Z [auth-controller] [32minfo[39m: User test attempting to log in
+2024-07-17T09:59:40.482Z [auth-controller] [32minfo[39m: User test logged in successfully
+2024-07-17T17:53:08.999Z [auth-controller] [32minfo[39m: Received registration request for username: mimiloooo
+2024-07-17T17:53:09.335Z [auth-controller] [32minfo[39m: User mimiloooo registered successfully
+2024-07-17T17:53:09.996Z [auth-controller] [32minfo[39m: Received registration request for username: mimiloooo
+2024-07-17T17:53:10.266Z [auth-controller] [32minfo[39m: User mimiloooo registered successfully
+2024-07-17T18:08:18.559Z [auth-controller] [32minfo[39m: Received registration request for username: taher
+2024-07-17T18:08:18.835Z [auth-controller] [32minfo[39m: User taher registered successfully
+2024-07-17T18:08:50.700Z [auth-controller] [32minfo[39m: User taher attempting to log in
+2024-07-17T18:08:50.998Z [auth-controller] [32minfo[39m: User taher logged in successfully
+2024-07-17T18:08:51.758Z [auth-controller] [32minfo[39m: User taher attempting to log in
+2024-07-17T18:08:52.034Z [auth-controller] [32minfo[39m: User taher logged in successfully
+2024-07-17T18:08:52.627Z [auth-controller] [32minfo[39m: User taher attempting to log in
+2024-07-17T18:08:52.897Z [auth-controller] [32minfo[39m: User taher logged in successfully
+2024-07-17T19:30:12.408Z [auth-controller] [32minfo[39m: Received registration request for username: mariem444
+2024-07-17T19:30:12.517Z [auth-controller] [32minfo[39m: User mariem444 registered successfully
+2024-07-17T19:30:13.979Z [auth-controller] [32minfo[39m: Received registration request for username: mariem444
+2024-07-17T19:30:14.093Z [auth-controller] [32minfo[39m: User mariem444 registered successfully
+2024-07-17T19:48:31.407Z [auth-controller] [32minfo[39m: Received registration request for username: mariem222
+2024-07-17T19:48:31.529Z [auth-controller] [32minfo[39m: User mariem222 registered successfully
+2024-07-17T19:49:02.147Z [auth-controller] [32minfo[39m: Received registration request for username: yassine
+2024-07-17T19:49:02.245Z [auth-controller] [32minfo[39m: User yassine registered successfully
+2024-07-17T19:49:30.169Z [auth-controller] [32minfo[39m: User yassine attempting to log in
+2024-07-17T19:49:30.289Z [auth-controller] [32minfo[39m: User yassine logged in successfully
