@@ -122,3 +122,57 @@
 2024-07-21T21:57:33.409Z [auth-controller] [32minfo[39m: User myriamlog registered successfully
 2024-07-21T21:57:50.502Z [auth-controller] [32minfo[39m: User myriamlog attempting to log in
 2024-07-21T21:57:50.770Z [auth-controller] [32minfo[39m: User myriamlog logged in successfully
+2024-07-22T09:01:51.334Z [auth-controller] [32minfo[39m: Received registration request for username: meriem
+2024-07-22T09:01:51.419Z [auth-controller] [32minfo[39m: User meriem registered successfully
+2024-07-22T09:02:01.481Z [auth-controller] [32minfo[39m: User meriem attempting to log in
+2024-07-22T09:02:01.562Z [auth-controller] [32minfo[39m: User meriem logged in successfully
+2024-07-22T09:10:29.900Z [auth-controller] [32minfo[39m: Received registration request for username: kiko23
+2024-07-22T09:10:30.024Z [auth-controller] [32minfo[39m: User kiko23 registered successfully
+2024-07-22T09:16:23.357Z [auth-controller] [32minfo[39m: Received registration request for username: insat2024
+2024-07-22T09:16:23.450Z [auth-controller] [32minfo[39m: User insat2024 registered successfully
+2024-07-22T09:33:19.915Z [auth-controller] [32minfo[39m: Received registration request for username: kiko99
+2024-07-22T09:33:20.056Z [auth-controller] [32minfo[39m: User kiko99 registered successfully
+2024-07-22T09:33:21.081Z [auth-controller] [32minfo[39m: Received registration request for username: kiko99
+2024-07-22T09:33:21.088Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `kiko99`
+2024-07-22T09:33:21.838Z [auth-controller] [32minfo[39m: Received registration request for username: kiko99
+2024-07-22T09:33:21.847Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `kiko99`
+2024-07-22T09:34:33.667Z [auth-controller] [32minfo[39m: Received registration request for username: mimi99
+2024-07-22T09:34:33.756Z [auth-controller] [32minfo[39m: User mimi99 registered successfully
+2024-07-22T09:35:23.805Z [auth-controller] [32minfo[39m: Received registration request for username: mimi98
+2024-07-22T09:35:23.885Z [auth-controller] [32minfo[39m: User mimi98 registered successfully
+2024-07-22T09:40:54.483Z [auth-controller] [32minfo[39m: Received registration request for username: kiko52
+2024-07-22T09:40:54.598Z [auth-controller] [32minfo[39m: User kiko52 registered successfully
+2024-07-22T09:40:55.913Z [auth-controller] [32minfo[39m: Received registration request for username: kiko52
+2024-07-22T09:40:55.918Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `kiko52`
+2024-07-22T09:41:45.950Z [auth-controller] [32minfo[39m: User kiko52 attempting to log in
+2024-07-22T09:41:46.040Z [auth-controller] [32minfo[39m: User kiko52 logged in successfully
+2024-07-22T09:42:20.676Z [auth-controller] [32minfo[39m: Received registration request for username: helloworld
+2024-07-22T09:42:20.761Z [auth-controller] [32minfo[39m: User helloworld registered successfully
+2024-07-22T09:42:27.222Z [auth-controller] [32minfo[39m: User hellow attempting to log in
+2024-07-22T09:42:27.225Z [auth-controller] [31merror[39m: Error during login: Invalid username
+2024-07-22T09:42:33.258Z [auth-controller] [32minfo[39m: User helloworld attempting to log in
+2024-07-22T09:42:33.346Z [auth-controller] [32minfo[39m: User helloworld logged in successfully
+2024-07-22T09:42:34.359Z [auth-controller] [32minfo[39m: User helloworld attempting to log in
+2024-07-22T09:42:34.446Z [auth-controller] [32minfo[39m: User helloworld logged in successfully
+2024-07-22T09:42:35.146Z [auth-controller] [32minfo[39m: User helloworld attempting to log in
+2024-07-22T09:42:35.233Z [auth-controller] [32minfo[39m: User helloworld logged in successfully
+2024-07-22T09:54:11.739Z [auth-controller] [32minfo[39m: Received registration request for username: lamimi
+2024-07-22T09:54:12.023Z [auth-controller] [32minfo[39m: User lamimi registered successfully
+2024-07-22T09:54:21.925Z [auth-controller] [32minfo[39m: User lamimi attempting to log in
+2024-07-22T09:54:22.197Z [auth-controller] [32minfo[39m: User lamimi logged in successfully
+2024-07-22T10:02:32.607Z [auth-controller] [32minfo[39m: Received registration request for username: cimf
+2024-07-22T10:02:32.884Z [auth-controller] [32minfo[39m: User cimf registered successfully
+2024-07-22T10:02:47.341Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:02:47.615Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:12:27.027Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:12:27.305Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:12:28.528Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:12:28.618Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:12:29.957Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:12:30.046Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:12:31.839Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:12:31.921Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:14:49.934Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:14:50.209Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:18:15.015Z [auth-controller] [32minfo[39m: User cimf attempting to log in
+2024-07-22T10:18:15.284Z [auth-controller] [32minfo[39m: User cimf logged in successfully
