@@ -1,10 +1,25 @@
-<form (ngSubmit)="onRegister()">
-  <label for="username">Username:</label>
-  <input type="text" id="username" [(ngModel)]="username" name="username" required>
-
-  <label for="password">Password:</label>
-  <input type="password" id="password" [(ngModel)]="password" name="password" required>
-
-  <button type="submit">Register</button>
-</form>
-
+<div class="register-container">
+  <h2>Register</h2>
+  <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" formControlName="username">
+      <div *ngIf="registerForm.controls['username'].invalid && registerForm.controls['username'].touched" class="error">
+        <span *ngIf="registerForm.controls['username'].errors?.['required']">Username is required.</span>
+        <span *ngIf="registerForm.controls['username'].errors?.['minlength']">Username must be at least 3 characters long.</span>
+        <span *ngIf="registerForm.controls['username'].errors?.['maxlength']">Username cannot exceed 30 characters.</span>
+      </div>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password">
+      <div *ngIf="registerForm.controls['password'].invalid && registerForm.controls['password'].touched" class="error">
+        <span *ngIf="registerForm.controls['password'].errors?.['required']">Password is required.</span>
+        <span *ngIf="registerForm.controls['password'].errors?.['minlength']">Password must be at least 6 characters long.</span>
+      </div>
+    </div>
+    <button type="submit" [disabled]="registerForm.invalid">Register</button>
+  </form>
+  <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+  <p>Already have an account? <a routerLink="/login">Login</a></p>
+</div>

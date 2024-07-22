@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const { registerSchema, loginSchema } = require('../validation/validation');
 
 async function register(username, password) {
-    // Valider les données d'enregistrement
+
     const { error } = registerSchema().validate({ username, password });
     if (error) {
         throw new Error(`Validation error: ${error.details[0].message}`);

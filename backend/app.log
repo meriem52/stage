@@ -64,3 +64,61 @@
 2024-07-17T19:49:02.245Z [auth-controller] [32minfo[39m: User yassine registered successfully
 2024-07-17T19:49:30.169Z [auth-controller] [32minfo[39m: User yassine attempting to log in
 2024-07-17T19:49:30.289Z [auth-controller] [32minfo[39m: User yassine logged in successfully
+2024-07-21T10:33:49.098Z [auth-controller] [32minfo[39m: Received registration request for username: 
+2024-07-21T10:33:49.124Z [auth-controller] [31merror[39m: Error during registration: Validation error: "username" is not allowed to be empty
+2024-07-21T10:33:55.214Z [auth-controller] [32minfo[39m: Received registration request for username: vvvvvvv
+2024-07-21T10:33:55.636Z [auth-controller] [32minfo[39m: User vvvvvvv registered successfully
+2024-07-21T20:59:18.148Z [auth-controller] [32minfo[39m: Received registration request for username: mariem
+2024-07-21T20:59:18.432Z [auth-controller] [32minfo[39m: User mariem registered successfully
+2024-07-21T20:59:19.972Z [auth-controller] [32minfo[39m: Received registration request for username: mariem
+2024-07-21T20:59:19.993Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `mariem`
+2024-07-21T21:02:24.770Z [auth-controller] [32minfo[39m: Received registration request for username: llololo
+2024-07-21T21:02:25.055Z [auth-controller] [32minfo[39m: User llololo registered successfully
+2024-07-21T21:02:25.825Z [auth-controller] [32minfo[39m: Received registration request for username: llololo
+2024-07-21T21:02:25.842Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `llololo`
+2024-07-21T21:02:38.163Z [auth-controller] [32minfo[39m: Received registration request for username: LOGtari
+2024-07-21T21:02:38.443Z [auth-controller] [32minfo[39m: User LOGtari registered successfully
+2024-07-21T21:02:39.162Z [auth-controller] [32minfo[39m: Received registration request for username: LOGtari
+2024-07-21T21:02:39.173Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `LOGtari`
+2024-07-21T21:04:13.731Z [auth-controller] [32minfo[39m: Received registration request for username: mariem
+2024-07-21T21:04:13.743Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `mariem`
+2024-07-21T21:04:22.863Z [auth-controller] [32minfo[39m: Received registration request for username: mariemloh
+2024-07-21T21:04:23.149Z [auth-controller] [32minfo[39m: User mariemloh registered successfully
+2024-07-21T21:04:23.651Z [auth-controller] [32minfo[39m: Received registration request for username: mariemloh
+2024-07-21T21:04:23.662Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `mariemloh`
+2024-07-21T21:04:24.716Z [auth-controller] [32minfo[39m: Received registration request for username: mariemloh
+2024-07-21T21:04:24.729Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `mariemloh`
+2024-07-21T21:04:37.435Z [auth-controller] [32minfo[39m: Received registration request for username: kiko
+2024-07-21T21:04:37.712Z [auth-controller] [32minfo[39m: User kiko registered successfully
+2024-07-21T21:46:49.729Z [auth-controller] [32minfo[39m: Received registration request for username: morta
+2024-07-21T21:46:50.037Z [auth-controller] [32minfo[39m: User morta registered successfully
+2024-07-21T21:49:10.146Z [auth-controller] [32minfo[39m: User morta attempting to log in
+2024-07-21T21:49:10.496Z [auth-controller] [32minfo[39m: User morta logged in successfully
+2024-07-21T21:49:14.497Z [auth-controller] [32minfo[39m: Received registration request for username: morta
+2024-07-21T21:49:14.504Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `morta`
+2024-07-21T21:49:18.892Z [auth-controller] [32minfo[39m: User morta attempting to log in
+2024-07-21T21:49:19.162Z [auth-controller] [32minfo[39m: User morta logged in successfully
+2024-07-21T21:49:47.960Z [auth-controller] [32minfo[39m: Received registration request for username: loglog
+2024-07-21T21:49:48.260Z [auth-controller] [32minfo[39m: User loglog registered successfully
+2024-07-21T21:49:49.250Z [auth-controller] [32minfo[39m: Received registration request for username: loglog
+2024-07-21T21:49:49.261Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `loglog`
+2024-07-21T21:50:25.702Z [auth-controller] [32minfo[39m: Received registration request for username: alilogtari
+2024-07-21T21:50:25.984Z [auth-controller] [32minfo[39m: User alilogtari registered successfully
+2024-07-21T21:50:41.323Z [auth-controller] [32minfo[39m: User alilogtari attempting to log in
+2024-07-21T21:50:41.588Z [auth-controller] [31merror[39m: Error during login: Invalid password
+2024-07-21T21:51:07.627Z [auth-controller] [32minfo[39m: Received registration request for username: molka
+2024-07-21T21:51:07.894Z [auth-controller] [32minfo[39m: User molka registered successfully
+2024-07-21T21:51:22.535Z [auth-controller] [32minfo[39m: User molka attempting to log in
+2024-07-21T21:51:22.805Z [auth-controller] [32minfo[39m: User molka logged in successfully
+2024-07-21T21:52:08.608Z [auth-controller] [32minfo[39m: Received registration request for username: morta
+2024-07-21T21:52:08.617Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `morta`
+2024-07-21T21:53:29.380Z [auth-controller] [32minfo[39m: User molka attempting to log in
+2024-07-21T21:53:29.641Z [auth-controller] [32minfo[39m: User molka logged in successfully
+2024-07-21T21:54:41.648Z [auth-controller] [32minfo[39m: Received registration request for username: molka
+2024-07-21T21:54:41.658Z [auth-controller] [31merror[39m: Error during registration: Error registering user: User validation failed: username: Error, expected `username` to be unique. Value: `molka`
+2024-07-21T21:54:55.498Z [auth-controller] [32minfo[39m: User molka attempting to log in
+2024-07-21T21:54:55.769Z [auth-controller] [32minfo[39m: User molka logged in successfully
+2024-07-21T21:57:33.129Z [auth-controller] [32minfo[39m: Received registration request for username: myriamlog
+2024-07-21T21:57:33.409Z [auth-controller] [32minfo[39m: User myriamlog registered successfully
+2024-07-21T21:57:50.502Z [auth-controller] [32minfo[39m: User myriamlog attempting to log in
+2024-07-21T21:57:50.770Z [auth-controller] [32minfo[39m: User myriamlog logged in successfully

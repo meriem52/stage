@@ -1,24 +1,40 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
-  templateUrl: './register.component.html'
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
 })
-export class RegisterComponent {
-  username: string = '';
-  password: string = '';
+export class RegisterComponent implements OnInit {
+  registerForm: FormGroup;
+  errorMessage: string = '';
 
-  constructor(private authService: AuthService) { }
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
+    this.registerForm = this.fb.group({
+      username: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(30)]],
+      password: ['', [Validators.required, Validators.minLength(6)]]
+    });
+  }
 
-  onRegister() {
-    this.authService.register(this.username, this.password).subscribe(
-      response => {
-        console.log('User registered successfully:', response);
-      },
-      error => {
-        console.error('Registration error:', error);
-      }
-    );
+  ngOnInit(): void {}
+
+  onRegister(): void {
+    if (this.registerForm.valid) {
+      const { username, password } = this.registerForm.value;
+      this.authService.register(username, password).subscribe(
+        response => {
+          console.log('User registered successfully:', response);
+          this.errorMessage = '';
+          this.router.navigate(['/login']);
+        },
+        error => {
+          this.errorMessage = error.error ? error.error.error : 'Registration error';
+          console.error('Registration error:', error);
+        }
+      );
+    }
   }
 }

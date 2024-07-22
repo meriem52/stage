@@ -7,12 +7,8 @@ const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
-// Middleware CORS
-app.use(cors()); // Ajouter cette ligne pour activer CORS
 
-
-
-
+app.use(cors());
 
 // Middleware pour parser le JSON
 app.use(bodyParser.json());
@@ -24,7 +20,7 @@ app.use('/api/users', userRoutes);
 app.get('/', (req, res) => {
     res.send('Hello, world!');
 });
-// Middleware pour la gestion des erreurs
+
 //app.use(errorMiddleware);
 
 module.exports = app;

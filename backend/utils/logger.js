@@ -10,21 +10,21 @@ class Logger {
 
         // Créer le logger
         this.logger = createLogger({
-            level: logLevel, // Niveau de log minimum (peut être modifié en fonction des besoins)
+            level: logLevel,
             format: combine(
-                label({ label: appLabel }), // Étiquette personnalisée pour identifier l'application
+                label({ label: appLabel }), // Étiquette  pour identifier l'application
                 timestamp(), // Ajouter un timestamp à chaque log
-                colorize(), // Colorier les logs (pour la console)
+                colorize(), //  (pour la console)
                 this.myFormat // Utiliser le format personnalisé
             ),
             transports: [
                 new transports.Console(), // Afficher les logs dans la console
-                new transports.File({ filename: 'app.log' }) // Enregistrer les logs dans un fichier
+                new transports.File({ filename: 'app.log' })
             ]
         });
     }
 
-    // Méthodes pour loguer les messages
+
     info(message) {
         this.logger.info(message);
     }
