@@ -184,3 +184,15 @@
 2024-07-22T10:31:35.343Z [auth-controller] [32minfo[39m: User mariamlogtari registered successfully
 2024-07-22T10:31:51.687Z [auth-controller] [32minfo[39m: User mariamlogtari attempting to log in
 2024-07-22T10:31:51.985Z [auth-controller] [32minfo[39m: User mariamlogtari logged in successfully
+2024-07-22T10:49:37.988Z [auth-controller] [32minfo[39m: User test attempting to log in
+2024-07-22T10:49:37.994Z [auth-controller] [31merror[39m: Error during login: Invalid username
+2024-07-22T10:50:32.780Z [auth-controller] [32minfo[39m: Received registration request for username: admin
+2024-07-22T10:50:33.074Z [auth-controller] [32minfo[39m: User admin registered successfully
+2024-07-22T10:50:54.243Z [auth-controller] [32minfo[39m: User admin attempting to log in
+2024-07-22T10:50:54.420Z [auth-controller] [32minfo[39m: User admin logged in successfully
+2024-07-22T10:52:35.685Z [auth-controller] [32minfo[39m: User admin attempting to log in
+2024-07-22T10:52:35.963Z [auth-controller] [32minfo[39m: User admin logged in successfully
+2024-07-22T10:54:48.212Z [auth-controller] [32minfo[39m: User admin attempting to log in
+2024-07-22T10:54:48.466Z [auth-controller] [31merror[39m: Error during login: Invalid password
+2024-07-22T11:07:30.795Z [auth-controller] [32minfo[39m: User admin attempting to log in
+2024-07-22T11:07:30.997Z [auth-controller] [32minfo[39m: User admin logged in successfully
