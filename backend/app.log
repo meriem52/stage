@@ -176,3 +176,11 @@
 2024-07-22T10:14:50.209Z [auth-controller] [32minfo[39m: User cimf logged in successfully
 2024-07-22T10:18:15.015Z [auth-controller] [32minfo[39m: User cimf attempting to log in
 2024-07-22T10:18:15.284Z [auth-controller] [32minfo[39m: User cimf logged in successfully
+2024-07-22T10:21:48.704Z [auth-controller] [32minfo[39m: Received registration request for username: prepa
+2024-07-22T10:21:49.098Z [auth-controller] [32minfo[39m: User prepa registered successfully
+2024-07-22T10:22:00.968Z [auth-controller] [32minfo[39m: User prepa attempting to log in
+2024-07-22T10:22:01.254Z [auth-controller] [32minfo[39m: User prepa logged in successfully
+2024-07-22T10:31:34.955Z [auth-controller] [32minfo[39m: Received registration request for username: mariamlogtari
+2024-07-22T10:31:35.343Z [auth-controller] [32minfo[39m: User mariamlogtari registered successfully
+2024-07-22T10:31:51.687Z [auth-controller] [32minfo[39m: User mariamlogtari attempting to log in
+2024-07-22T10:31:51.985Z [auth-controller] [32minfo[39m: User mariamlogtari logged in successfully

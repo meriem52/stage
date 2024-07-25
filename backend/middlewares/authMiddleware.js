@@ -3,7 +3,7 @@ const { JWT_SECRET } = require('../config/appConfig');
 
 const authenticateJWT = (req, res, next) => {
     try {
-        const token = req.header('Authorization').replace('Bearer ', '');
+        const token = req.cookies.authToken; // Get token from cookie
 
         if (!token) {
             return res.status(401).send({ error: 'Access denied. No token provided.' });
