@@ -1,0 +1,22 @@
+
+<div class="login-container">
+  <div class="login-form">
+    <div class="avatar-container">
+      <img src="/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <formly-form [form]="loginForm" [fields]="userFields"></formly-form>
+
+      <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+      </div>
+
+      <button type="submit" pButton label="Login" class="p-button-success" [disabled]="loginForm.invalid"></button>
+      <div class="register-link">
+        <p>Don't have an account? <a routerLink="/register">Register here</a></p>
+      </div>
+    </form>
+  </div>
+
+</div>
