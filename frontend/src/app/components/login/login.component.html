@@ -1,4 +1,3 @@
-
 <div class="login-container">
   <div class="login-form">
     <div class="avatar-container">
@@ -8,15 +7,19 @@
     <form [formGroup]="loginForm" (ngSubmit)="login()">
       <formly-form [form]="loginForm" [fields]="userFields"></formly-form>
 
-      <div *ngIf="errorMessage" class="error-message">
-        {{ errorMessage }}
-      </div>
-
       <button type="submit" pButton label="Login" class="p-button-success" [disabled]="loginForm.invalid"></button>
       <div class="register-link">
         <p>Don't have an account? <a routerLink="/register">Register here</a></p>
       </div>
     </form>
   </div>
-
 </div>
+
+<p-dialog header="Login Error" [(visible)]="displayErrorDialog" [modal]="true" [closable]="true" [resizable]="false" [draggable]="false" (onHide)="hideDialog()" class="transparent-dialog">
+  <p>{{ errorMessage }}</p>
+  <p-footer>
+    <button type="button" pButton label="OK" icon="pi pi-check" (click)="hideDialog()" class="simple-button"></button>
+  </p-footer>
+</p-dialog>
+
+

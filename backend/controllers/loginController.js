@@ -1,11 +1,17 @@
 const loginService = require("../services/loginService");
 const Logger = require('../utils/logger');
 const logger = new Logger('auth-controller');
-const jwt = require('jsonwebtoken');
-const { JWT_SECRET } = require('../config/appConfig');
+const { loginSchema } = require('../validation/loginValidation');
 
 const login = (req, res) => {
-    const { username, password } = req.body;
+    const { error, value } = loginSchema.validate(req.body);
+    if (error) {
+        const errorMessage = `Validation error: ${error.details.map(detail => detail.message).join(', ')}`;
+        logger.error(errorMessage);
+        return res.status(400).send({ error: errorMessage });
+    }
+
+    const { username, password } = value;
 
     logger.info(`Received login request for username: ${username}`);
 
@@ -15,9 +21,9 @@ const login = (req, res) => {
                 logger.info(`Generated token for user: ${username}`);
 
                 res.cookie('authToken', token, {
-                    httpOnly: true, // Ensures cookie is not accessible via JavaScript
-                    secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
-                    sameSite: 'None', // Adjust according to your needs
+                    httpOnly: true,
+                    secure: process.env.NODE_ENV === 'production',
+                    sameSite: 'None',
                 });
 
                 res.send({ message: 'Login successful' });
@@ -28,7 +34,8 @@ const login = (req, res) => {
         })
         .catch(error => {
             logger.error(`Login error: ${error.message}`);
-            res.status(500).send({ error: error.message });
+            res.status(503).send({ error: 'Service unavailable' });
         });
 };
-module.exports = {  login};
+
+module.exports = { login };

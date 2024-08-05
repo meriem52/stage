@@ -1,7 +1,8 @@
 const Joi = require('joi');
-const schema = Joi.object({
+
+const loginSchema = Joi.object().keys({
     username: Joi.string().alphanum().min(4).max(30).required(),
-    password: Joi.string().min(5).required(),
-}).unknown(false); // Disallow additional properties
-const loginSchema = () => schema;
-module.exports = {  loginSchema };
+    password: Joi.string().min(5).required()
+}).unknown(false);
+
+module.exports = { loginSchema };
